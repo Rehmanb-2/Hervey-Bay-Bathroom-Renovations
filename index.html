@@ -1,0 +1,2159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bathroom Renovations Hervey Bay - Quality Bathroom Renovations QLD</title>
+    <meta name="description" content="Professional bathroom renovations in Hervey Bay QLD. Licensed, insured tradesman offering full bathroom renovations, tiling, plumbing upgrades. Call 0429 411 737 for free quote.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            box-sizing: border-box;
+        }
+        
+        .font-montserrat { font-family: 'Montserrat', sans-serif; }
+        .font-opensans { font-family: 'Open Sans', sans-serif; }
+        
+        .hero-bg {
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                        url('https://images.unsplash.com/photo-1620626011761-996317b8d101?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .service-bg {
+            background: linear-gradient(rgba(0, 128, 128, 0.8), rgba(0, 128, 128, 0.8)), 
+                        url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .about-bg {
+            background: linear-gradient(rgba(64, 64, 64, 0.7), rgba(64, 64, 64, 0.7)), 
+                        url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .contact-bg {
+            background: linear-gradient(rgba(0, 128, 128, 0.6), rgba(0, 128, 128, 0.6)), 
+                        url('https://images.unsplash.com/photo-1507652313519-d4e9174996dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .btn-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .btn-hover:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.8s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .gallery-item {
+            transition: transform 0.3s ease;
+        }
+        
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        
+        .page {
+            display: none;
+        }
+        
+        .page.active {
+            display: block;
+        }
+        
+        .nav-link {
+            transition: color 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            color: #14b8a6;
+        }
+        
+        .nav-link.active {
+            color: #14b8a6;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="font-opensans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <!-- Logo -->
+                    <div class="flex items-center space-x-2">
+                        <img src="https://drive.google.com/uc?export=view&id=1P3xUjstwo6xb4suPsbgRPmcQTqWDZ_gg" alt="Bathroom Renovations Hervey Bay Logo" class="w-10 h-10 object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.marginLeft='0';">
+                        <span class="font-montserrat font-bold text-xl text-gray-800">Bathroom Renovations Hervey Bay</span>
+                    </div>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#" class="nav-link active" onclick="showPage('home')">Home</a>
+                        <a href="#" class="nav-link" onclick="showPage('services')">Services</a>
+                        <a href="#" class="nav-link" onclick="showPage('about')">About Us</a>
+                        <a href="#" class="nav-link" onclick="showPage('contact')">Contact</a>
+                        <a href="tel:0429411737" class="bg-teal-600 text-white px-4 py-2 rounded-lg btn-hover">Call Now</a>
+                    </div>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button onclick="toggleMobileMenu()" class="text-gray-700 hover:text-teal-600">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#" class="nav-link block px-3 py-2" onclick="showPage('home'); toggleMobileMenu()">Home</a>
+                <a href="#" class="nav-link block px-3 py-2" onclick="showPage('services'); toggleMobileMenu()">Services</a>
+                <a href="#" class="nav-link block px-3 py-2" onclick="showPage('about'); toggleMobileMenu()">About Us</a>
+                <a href="#" class="nav-link block px-3 py-2" onclick="showPage('contact'); toggleMobileMenu()">Contact</a>
+                <a href="tel:0429411737" class="block px-3 py-2 bg-teal-600 text-white rounded-lg mx-3 text-center">Call Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page 1: Home -->
+    <div id="home" class="page active">
+        <!-- Hero Section -->
+        <section class="hero-bg min-h-screen flex items-center pt-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white fade-in">
+                <h1 class="font-montserrat text-4xl md:text-6xl font-bold mb-6">
+                    Your Dream Bathroom Starts Here in Hervey Bay
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+                    Quality bathroom renovations tailored to your style and budget.
+                </p>
+                <div class="space-y-4 md:space-y-0 md:space-x-4 md:flex md:justify-center">
+                    <button onclick="showPage('contact')" class="bg-teal-600 text-white px-8 py-4 rounded-lg text-lg font-semibold btn-hover block w-full md:w-auto">
+                        Get a Free Quote
+                    </button>
+                    <a href="tel:0429411737" class="bg-white text-gray-800 px-8 py-4 rounded-lg text-lg font-semibold btn-hover block w-full md:w-auto">
+                        Call 0429 411 737
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Company Section -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="font-montserrat text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+                        About Our Company
+                    </h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        We're Hervey Bay's trusted bathroom renovation specialists, transforming ordinary bathrooms into extraordinary spaces. With over 15 years of experience, we combine quality craftsmanship with modern design to create bathrooms that exceed expectations.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                    Why Choose Us
+                </h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Licensed & Insured</h3>
+                        <p class="text-gray-600">Fully licensed tradesman with comprehensive insurance coverage for your peace of mind.</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Quality Guarantee</h3>
+                        <p class="text-gray-600">We stand behind our work with a comprehensive warranty on all renovations.</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l2.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Local Expertise</h3>
+                        <p class="text-gray-600">Born and raised in Hervey Bay, we understand local building requirements and climate considerations.</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Transparent Pricing</h3>
+                        <p class="text-gray-600">No hidden costs or surprise fees. Clear, upfront pricing for every project.</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">On-Time Completion</h3>
+                        <p class="text-gray-600">We respect your time and complete projects within agreed timeframes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Services Preview -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                    Our Featured Services
+                </h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-10 h-10 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Full Bathroom Renovations</h3>
+                        <p class="text-gray-600">Complete bathroom makeovers from design to completion.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-10 h-10 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Tile & Fixture Replacement</h3>
+                        <p class="text-gray-600">Premium tiling and modern fixture installations.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-10 h-10 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Plumbing & Electrical</h3>
+                        <p class="text-gray-600">Professional plumbing and electrical upgrades.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-8">
+                    <button onclick="showPage('services')" class="bg-teal-600 text-white px-8 py-3 rounded-lg font-semibold btn-hover">
+                        View All Services
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Projects Gallery -->
+        <section class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                    Recent Projects
+                </h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="gallery-item bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="Modern Ensuite Renovation" class="h-48 w-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-800">Modern Ensuite</h3>
+                            <p class="text-sm text-gray-600">Hervey Bay Heights</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1571068316344-75bc76f77890?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Family Bathroom Renovation" class="h-48 w-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-800">Family Bathroom</h3>
+                            <p class="text-sm text-gray-600">Torquay</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="Luxury Bathroom Renovation" class="h-48 w-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-800">Luxury Renovation</h3>
+                            <p class="text-sm text-gray-600">Scarness</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1584622781564-1d987ba4dbc2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="Accessible Bathroom Renovation" class="h-48 w-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-800">Accessible Bathroom</h3>
+                            <p class="text-sm text-gray-600">Pialba</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-teal-600 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold mb-4">
+                    Book Your Free Consultation Today
+                </h2>
+                <p class="text-xl mb-8 max-w-2xl mx-auto">
+                    Ready to transform your bathroom? Get a free, no-obligation consultation and quote.
+                </p>
+                <div class="space-y-4 md:space-y-0 md:space-x-4 md:flex md:justify-center">
+                    <button onclick="showPage('contact')" class="bg-white text-teal-600 px-8 py-4 rounded-lg text-lg font-semibold btn-hover block w-full md:w-auto">
+                        Get Free Quote
+                    </button>
+                    <a href="tel:0429411737" class="bg-teal-700 text-white px-8 py-4 rounded-lg text-lg font-semibold btn-hover block w-full md:w-auto">
+                        Call 0429 411 737
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Page 2: Services -->
+    <div id="services" class="page">
+        <!-- Services Hero -->
+        <section class="service-bg min-h-96 flex items-center pt-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white fade-in">
+                <h1 class="font-montserrat text-4xl md:text-5xl font-bold mb-4">
+                    Our Bathroom Renovation Services
+                </h1>
+                <p class="text-xl max-w-2xl mx-auto">
+                    Comprehensive bathroom renovation services tailored to your needs and budget.
+                </p>
+            </div>
+        </section>
+
+        <!-- Services Grid -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Service 1 -->
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-3">Full Bathroom Renovations</h3>
+                        <p class="text-gray-600">Complete bathroom transformations from concept to completion. We handle everything including design, demolition, plumbing, tiling, and finishing touches.</p>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M3 3v18h18V3H3zm16 16H5V5h14v14z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-3">Layout & Space Optimization</h3>
+                        <p class="text-gray-600">Maximize your bathroom's potential with smart layout designs. We reconfigure spaces to improve functionality and create a more spacious feel.</p>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-3">Tile & Fixture Replacement</h3>
+                        <p class="text-gray-600">Update your bathroom with premium tiles and modern fixtures. From floor to ceiling tiling to luxury tapware and accessories.</p>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-3">Plumbing & Electrical Upgrades</h3>
+                        <p class="text-gray-600">Professional plumbing and electrical work to support your new bathroom. New outlets, lighting circuits, and modern plumbing systems.</p>
+                    </div>
+
+                    <!-- Service 5 -->
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-3">Accessibility Modifications</h3>
+                        <p class="text-gray-600">Make your bathroom accessible for all ages and abilities. Grab rails, walk-in showers, and mobility-friendly designs.</p>
+                    </div>
+
+                    <!-- Service 6 -->
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M9 11H7v6h2v-6zm4 0h-2v6h2v-6zm4 0h-2v6h2v-6zm2-7H5v2h14V4zM6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-3">Shower & Bathtub Installations</h3>
+                        <p class="text-gray-600">Expert installation of showers, bathtubs, and shower screens. From frameless glass to luxury spa baths.</p>
+                    </div>
+
+                    <!-- Service 7 -->
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-3">Lighting & Cabinet Upgrades</h3>
+                        <p class="text-gray-600">Transform your bathroom with modern lighting solutions and custom cabinetry. LED downlights, vanity lighting, and storage solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                    How Our Process Works
+                </h2>
+                <div class="grid md:grid-cols-5 gap-8">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-teal-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">1</div>
+                        <h3 class="font-montserrat font-semibold mb-2">Consultation</h3>
+                        <p class="text-sm text-gray-600">Free in-home consultation to discuss your vision and requirements.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-teal-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">2</div>
+                        <h3 class="font-montserrat font-semibold mb-2">Quote</h3>
+                        <p class="text-sm text-gray-600">Detailed quote with transparent pricing and timeline.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-teal-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">3</div>
+                        <h3 class="font-montserrat font-semibold mb-2">Design</h3>
+                        <p class="text-sm text-gray-600">Collaborative design process to finalize your dream bathroom.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-teal-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">4</div>
+                        <h3 class="font-montserrat font-semibold mb-2">Renovation</h3>
+                        <p class="text-sm text-gray-600">Professional renovation with minimal disruption to your daily routine.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-teal-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">5</div>
+                        <h3 class="font-montserrat font-semibold mb-2">Handover</h3>
+                        <p class="text-sm text-gray-600">Final walkthrough and handover of your completed bathroom.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-teal-600 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold mb-4">
+                    Ready to Start Your Renovation?
+                </h2>
+                <p class="text-xl mb-8">
+                    Contact us today for a free consultation and quote.
+                </p>
+                <button onclick="showPage('contact')" class="bg-white text-teal-600 px-8 py-4 rounded-lg text-lg font-semibold btn-hover">
+                    Request a Quote
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Page 3: About Us -->
+    <div id="about" class="page">
+        <!-- About Hero -->
+        <section class="about-bg min-h-96 flex items-center pt-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white fade-in">
+                <h1 class="font-montserrat text-4xl md:text-5xl font-bold mb-4">
+                    About Bathroom Renovations Hervey Bay
+                </h1>
+                <p class="text-xl max-w-2xl mx-auto">
+                    Your trusted local bathroom renovation specialists.
+                </p>
+            </div>
+        </section>
+
+        <!-- Company Story -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="font-montserrat text-3xl md:text-4xl font-bold text-gray-800 mb-8">
+                        Our Story
+                    </h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        Bathroom Renovations Hervey Bay is a locally owned and operated renovation business that has been transforming bathrooms across the Fraser Coast for over 15 years. Founded by local tradesman Mark Thompson, our company was built on the simple principle of delivering quality workmanship with honest, reliable service.
+                    </p>
+                    <p class="text-lg text-gray-600 mb-6">
+                        As a licensed and insured renovation specialist, we understand the unique challenges of renovating in our coastal climate. From humidity considerations to salt air protection, we ensure every renovation is built to last in our beautiful Hervey Bay environment.
+                    </p>
+                    <p class="text-lg text-gray-600">
+                        Our commitment to excellence has earned us a reputation as the Fraser Coast's most trusted bathroom renovation company, with hundreds of satisfied customers and countless referrals from happy homeowners.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Values -->
+        <section class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                    Our Core Values
+                </h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-10 h-10 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Honesty</h3>
+                        <p class="text-gray-600">Transparent communication and fair pricing on every project.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-10 h-10 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Craftsmanship</h3>
+                        <p class="text-gray-600">Exceptional attention to detail and quality in every aspect of our work.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-10 h-10 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Punctuality</h3>
+                        <p class="text-gray-600">Respecting your time with reliable scheduling and timely completion.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-10 h-10 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Customer Satisfaction</h3>
+                        <p class="text-gray-600">Your happiness is our success - we're not done until you're delighted.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                    What Our Customers Say
+                </h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="flex mb-4">
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Absolutely thrilled with our new bathroom! Mark and his team were professional, punctual, and the quality of work exceeded our expectations. Highly recommend!"</p>
+                        <p class="font-semibold text-gray-800">- Sarah & John M., Torquay</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="flex mb-4">
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Great communication throughout the project. The team was clean, respectful, and delivered exactly what was promised. Our ensuite looks amazing!"</p>
+                        <p class="font-semibold text-gray-800">- Michelle K., Scarness</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="flex mb-4">
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Fantastic value for money and completed on time. The attention to detail was impressive. We've already recommended them to our neighbors!"</p>
+                        <p class="font-semibold text-gray-800">- David & Lisa T., Pialba</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Meet Our Team -->
+        <section class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                    Meet Our Team
+                </h2>
+                <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                    <div class="text-center">
+                        <div class="w-32 h-32 bg-gradient-to-br from-teal-100 to-teal-200 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-16 h-16 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Mark Thompson</h3>
+                        <p class="text-gray-600 mb-2">Owner & Lead Renovator</p>
+                        <p class="text-sm text-gray-500">15+ years experience, Licensed Builder</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-32 h-32 bg-gradient-to-br from-blue-100 to-blue-200 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-16 h-16 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Jake Wilson</h3>
+                        <p class="text-gray-600 mb-2">Senior Tiler</p>
+                        <p class="text-sm text-gray-500">Specialist in luxury tile installations</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-32 h-32 bg-gradient-to-br from-green-100 to-green-200 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-16 h-16 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Tom Richards</h3>
+                        <p class="text-gray-600 mb-2">Licensed Plumber</p>
+                        <p class="text-sm text-gray-500">Plumbing & waterproofing specialist</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-teal-600 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold mb-4">
+                    Ready to Start Your Project?
+                </h2>
+                <p class="text-xl mb-8">
+                    Experience the difference of working with Hervey Bay's most trusted renovation team.
+                </p>
+                <button onclick="showPage('contact')" class="bg-white text-teal-600 px-8 py-4 rounded-lg text-lg font-semibold btn-hover">
+                    Start Your Project
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Page 4: Contact -->
+    <div id="contact" class="page">
+        <!-- Contact Hero -->
+        <section class="contact-bg min-h-96 flex items-center pt-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white fade-in">
+                <h1 class="font-montserrat text-4xl md:text-5xl font-bold mb-4">
+                    Get in Touch
+                </h1>
+                <p class="text-xl max-w-2xl mx-auto">
+                    Ready to transform your bathroom? Contact us for a free consultation.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Information & Form -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12">
+                    <!-- Contact Information -->
+                    <div>
+                        <h2 class="font-montserrat text-3xl font-bold text-gray-800 mb-8">
+                            Contact Information
+                        </h2>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-6 h-6 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-gray-800 mb-1">Business Name</h3>
+                                    <p class="text-gray-600">Bathroom Renovations Hervey Bay</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-6 h-6 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-gray-800 mb-1">Phone</h3>
+                                    <a href="tel:0429411737" class="text-teal-600 hover:text-teal-700">0429 411 737</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-6 h-6 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-gray-800 mb-1">Service Area</h3>
+                                    <p class="text-gray-600">Hervey Bay QLD 4655</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-6 h-6 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm3.5 6L12 10.5 8.5 8 12 5.5 15.5 8zM12 13.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-gray-800 mb-1">Hours</h3>
+                                    <p class="text-gray-600">Monday - Friday: 08:00 - 18:00</p>
+                                    <p class="text-gray-600">Saturday: 08:00 - 16:00</p>
+                                    <p class="text-gray-600">Sunday: Closed</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Quick Action Buttons -->
+                        <div class="mt-8 space-y-4">
+                            <a href="tel:0429411737" class="bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold btn-hover block text-center">
+                                Call Now
+                            </a>
+                            <button onclick="scrollToForm()" class="bg-gray-200 text-gray-800 px-6 py-3 rounded-lg font-semibold btn-hover block w-full">
+                                Request Free Quote
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div>
+                        <h2 class="font-montserrat text-3xl font-bold text-gray-800 mb-8">
+                            Send Us a Message
+                        </h2>
+                        
+                        <form id="contact-form" class="space-y-6">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Name *</label>
+                                <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500">
+                            </div>
+                            
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email *</label>
+                                <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500">
+                            </div>
+                            
+                            <div>
+                                <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Phone</label>
+                                <input type="tel" id="phone" name="phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500">
+                            </div>
+                            
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message *</label>
+                                <textarea id="message" name="message" rows="5" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500" placeholder="Tell us about your bathroom renovation project..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="w-full bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold btn-hover">
+                                Send Message
+                            </button>
+                        </form>
+                        
+                        <div id="form-success" class="hidden mt-4 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg">
+                            Thank you for your message! We'll get back to you within 24 hours.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-montserrat text-3xl font-bold text-center text-gray-800 mb-8">
+                    Our Service Area
+                </h2>
+                <div class="bg-white rounded-lg shadow-lg p-8 text-center">
+                    <div class="w-full h-64 bg-gradient-to-br from-teal-100 to-blue-200 rounded-lg flex items-center justify-center mb-6">
+                        <div class="text-center">
+                            <svg class="w-16 h-16 text-teal-600 mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                            <h3 class="font-montserrat text-xl font-semibold text-gray-800">Hervey Bay QLD 4655</h3>
+                            <p class="text-gray-600">Serving all suburbs across Hervey Bay and surrounding areas</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">
+                        We proudly serve Hervey Bay, Torquay, Scarness, Pialba, Urangan, and surrounding Fraser Coast communities.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="py-16 bg-teal-600 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold mb-4">
+                    "Transforming Bathrooms Across Hervey Bay with Quality & Style."
+                </h2>
+                <p class="text-xl mb-8">
+                    Your dream bathroom is just a phone call away.
+                </p>
+                <div class="space-y-4 md:space-y-0 md:space-x-4 md:flex md:justify-center">
+                    <a href="tel:0429411737" class="bg-white text-teal-600 px-8 py-4 rounded-lg text-lg font-semibold btn-hover block w-full md:w-auto">
+                        Call Now
+                    </a>
+                    <button onclick="scrollToForm()" class="bg-teal-700 text-white px-8 py-4 rounded-lg text-lg font-semibold btn-hover block w-full md:w-auto">
+                        Request Free Quote
+                    </button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <img src="https://drive.google.com/uc?export=view&id=1P3xUjstwo6xb4suPsbgRPmcQTqWDZ_gg" alt="Bathroom Renovations Hervey Bay Logo" class="w-8 h-8 object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.marginLeft='0';">
+                        <span class="font-montserrat font-bold text-lg">Bathroom Renovations Hervey Bay</span>
+                    </div>
+                    <p class="text-gray-300 text-sm">
+                        Quality bathroom renovations across Hervey Bay and the Fraser Coast.
+                    </p>
+                </div>
+                
+                <div>
+                    <h3 class="font-montserrat font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" onclick="showPage('home')" class="text-gray-300 hover:text-teal-400">Home</a></li>
+                        <li><a href="#" onclick="showPage('services')" class="text-gray-300 hover:text-teal-400">Services</a></li>
+                        <li><a href="#" onclick="showPage('about')" class="text-gray-300 hover:text-teal-400">About Us</a></li>
+                        <li><a href="#" onclick="showPage('contact')" class="text-gray-300 hover:text-teal-400">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-montserrat font-semibold mb-4">Services</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><span class="text-gray-300">Full Bathroom Renovations</span></li>
+                        <li><span class="text-gray-300">Tile & Fixture Replacement</span></li>
+                        <li><span class="text-gray-300">Plumbing & Electrical</span></li>
+                        <li><span class="text-gray-300">Accessibility Modifications</span></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-montserrat font-semibold mb-4">Contact Info</h3>
+                    <div class="space-y-2 text-sm">
+                        <p class="text-gray-300">Phone: <a href="tel:0429411737" class="text-teal-400 hover:text-teal-300">0429 411 737</a></p>
+                        <p class="text-gray-300">Service Area: Hervey Bay QLD 4655</p>
+                        <p class="text-gray-300">Hours: Mon-Fri 8AM-6PM</p>
+                    </div>
+                    
+                    <!-- Social Media Icons -->
+                    <div class="flex space-x-4 mt-4">
+                        <a href="https://www.facebook.com/profile.php?id=" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-teal-400" title="Follow us on Facebook">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/@HerveyBayBathroomRenovationSpe" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-teal-400" title="Visit our YouTube channel">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/renovationsherveybay/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-teal-400" title="Follow us on Instagram">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-300">
+                <p>&copy; 2024 Bathroom Renovations Hervey Bay. All rights reserved. | Licensed & Insured Tradesman</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Page Navigation
+        function showPage(pageId) {
+            // Hide all pages
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.classList.remove('active'));
+            
+            // Show selected page
+            document.getElementById(pageId).classList.add('active');
+            
+            // Update navigation
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => link.classList.remove('active'));
+            
+            // Find and activate the correct nav link
+            const activeLink = document.querySelector(`[onclick="showPage('${pageId}')"]`);
+            if (activeLink) {
+                activeLink.classList.add('active');
+            }
+            
+            // Scroll to top
+            window.scrollTo(0, 0);
+            
+            // Update page title and meta description
+            updatePageMeta(pageId);
+        }
+        
+        function updatePageMeta(pageId) {
+            const titles = {
+                'home': 'Bathroom Renovations Hervey Bay - Quality Bathroom Renovations QLD',
+                'services': 'Bathroom Renovation Services - Hervey Bay QLD | Full Renovations & Tiling',
+                'about': 'About Us - Bathroom Renovations Hervey Bay | Licensed Local Tradesman',
+                'contact': 'Contact - Bathroom Renovations Hervey Bay | Free Quotes 0429 411 737'
+            };
+            
+            const descriptions = {
+                'home': 'Professional bathroom renovations in Hervey Bay QLD. Licensed, insured tradesman offering full bathroom renovations, tiling, plumbing upgrades. Call 0429 411 737 for free quote.',
+                'services': 'Comprehensive bathroom renovation services in Hervey Bay. Full renovations, tiling, plumbing, electrical upgrades, accessibility modifications. Licensed tradesman.',
+                'about': 'Learn about Bathroom Renovations Hervey Bay - locally owned, licensed tradesman with 15+ years experience. Quality craftsmanship and customer satisfaction guaranteed.',
+                'contact': 'Contact Bathroom Renovations Hervey Bay for free consultation. Phone 0429 411 737. Serving Hervey Bay QLD 4655 and Fraser Coast. Licensed & insured.'
+            };
+            
+            document.title = titles[pageId] || titles['home'];
+            
+            const metaDescription = document.querySelector('meta[name="description"]');
+            if (metaDescription) {
+                metaDescription.setAttribute('content', descriptions[pageId] || descriptions['home']);
+            }
+        }
+        
+        // Mobile Menu Toggle
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        }
+        
+        // Contact Form Handling
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            const phone = formData.get('phone');
+            const message = formData.get('message');
+            
+            // Simple validation
+            if (!name || !email || !message) {
+                showFormMessage('Please fill in all required fields.', 'error');
+                return;
+            }
+            
+            // Simulate form submission
+            showFormMessage('Thank you for your message! We\'ll get back to you within 24 hours.', 'success');
+            
+            // Reset form
+            this.reset();
+        });
+        
+        function showFormMessage(message, type) {
+            const successDiv = document.getElementById('form-success');
+            successDiv.textContent = message;
+            
+            if (type === 'error') {
+                successDiv.className = 'mt-4 p-4 bg-red-100 border border-red-400 text-red-700 rounded-lg';
+            } else {
+                successDiv.className = 'mt-4 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg';
+            }
+            
+            successDiv.classList.remove('hidden');
+            
+            // Hide message after 5 seconds
+            setTimeout(() => {
+                successDiv.classList.add('hidden');
+            }, 5000);
+        }
+        
+        // Scroll to form function
+        function scrollToForm() {
+            if (document.getElementById('contact').classList.contains('active')) {
+                // Already on contact page, scroll to form
+                document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' });
+            } else {
+                // Navigate to contact page first
+                showPage('contact');
+                // Small delay to ensure page is loaded, then scroll
+                setTimeout(() => {
+                    document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' });
+                }, 100);
+            }
+        }
+        
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set initial page meta
+            updatePageMeta('home');
+            
+            // Add smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            });
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'990a69de615e3fa1',t:'MTc2MDgxNTQ0Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bathroom Renovations Hervey Bay - Quality Bathroom Renovations QLD</title>
+    <meta name="description" content="Professional bathroom renovations in Hervey Bay QLD. Licensed, insured tradesman offering full bathroom renovations, tiling, plumbing upgrades. Call 0429 411 737 for free quote.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            box-sizing: border-box;
+        }
+        
+        .font-montserrat { font-family: 'Montserrat', sans-serif; }
+        .font-opensans { font-family: 'Open Sans', sans-serif; }
+        
+        .hero-bg {
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                        url('https://images.unsplash.com/photo-1620626011761-996317b8d101?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .service-bg {
+            background: linear-gradient(rgba(0, 128, 128, 0.8), rgba(0, 128, 128, 0.8)), 
+                        url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .about-bg {
+            background: linear-gradient(rgba(64, 64, 64, 0.7), rgba(64, 64, 64, 0.7)), 
+                        url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .contact-bg {
+            background: linear-gradient(rgba(0, 128, 128, 0.6), rgba(0, 128, 128, 0.6)), 
+                        url('https://images.unsplash.com/photo-1507652313519-d4e9174996dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .btn-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .btn-hover:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.8s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .gallery-item {
+            transition: transform 0.3s ease;
+        }
+        
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        
+        .page {
+            display: none;
+        }
+        
+        .page.active {
+            display: block;
+        }
+        
+        .nav-link {
+            transition: color 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            color: #14b8a6;
+        }
+        
+        .nav-link.active {
+            color: #14b8a6;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="font-opensans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <!-- Logo -->
+                    <div class="flex items-center space-x-2">
+                        <img src="https://drive.google.com/uc?export=view&id=1P3xUjstwo6xb4suPsbgRPmcQTqWDZ_gg" alt="Bathroom Renovations Hervey Bay Logo" class="w-10 h-10 object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.marginLeft='0';">
+                        <span class="font-montserrat font-bold text-xl text-gray-800">Bathroom Renovations Hervey Bay</span>
+                    </div>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#" class="nav-link active" onclick="showPage('home')">Home</a>
+                        <a href="#" class="nav-link" onclick="showPage('services')">Services</a>
+                        <a href="#" class="nav-link" onclick="showPage('about')">About Us</a>
+                        <a href="#" class="nav-link" onclick="showPage('contact')">Contact</a>
+                        <a href="tel:0429411737" class="bg-teal-600 text-white px-4 py-2 rounded-lg btn-hover">Call Now</a>
+                    </div>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button onclick="toggleMobileMenu()" class="text-gray-700 hover:text-teal-600">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#" class="nav-link block px-3 py-2" onclick="showPage('home'); toggleMobileMenu()">Home</a>
+                <a href="#" class="nav-link block px-3 py-2" onclick="showPage('services'); toggleMobileMenu()">Services</a>
+                <a href="#" class="nav-link block px-3 py-2" onclick="showPage('about'); toggleMobileMenu()">About Us</a>
+                <a href="#" class="nav-link block px-3 py-2" onclick="showPage('contact'); toggleMobileMenu()">Contact</a>
+                <a href="tel:0429411737" class="block px-3 py-2 bg-teal-600 text-white rounded-lg mx-3 text-center">Call Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page 1: Home -->
+    <div id="home" class="page active">
+        <!-- Hero Section -->
+        <section class="hero-bg min-h-screen flex items-center pt-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white fade-in">
+                <h1 class="font-montserrat text-4xl md:text-6xl font-bold mb-6">
+                    Your Dream Bathroom Starts Here in Hervey Bay
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+                    Quality bathroom renovations tailored to your style and budget.
+                </p>
+                <div class="space-y-4 md:space-y-0 md:space-x-4 md:flex md:justify-center">
+                    <button onclick="showPage('contact')" class="bg-teal-600 text-white px-8 py-4 rounded-lg text-lg font-semibold btn-hover block w-full md:w-auto">
+                        Get a Free Quote
+                    </button>
+                    <a href="tel:0429411737" class="bg-white text-gray-800 px-8 py-4 rounded-lg text-lg font-semibold btn-hover block w-full md:w-auto">
+                        Call 0429 411 737
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Company Section -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="font-montserrat text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+                        About Our Company
+                    </h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        We're Hervey Bay's trusted bathroom renovation specialists, transforming ordinary bathrooms into extraordinary spaces. With over 15 years of experience, we combine quality craftsmanship with modern design to create bathrooms that exceed expectations.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                    Why Choose Us
+                </h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Licensed & Insured</h3>
+                        <p class="text-gray-600">Fully licensed tradesman with comprehensive insurance coverage for your peace of mind.</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Quality Guarantee</h3>
+                        <p class="text-gray-600">We stand behind our work with a comprehensive warranty on all renovations.</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l2.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Local Expertise</h3>
+                        <p class="text-gray-600">Born and raised in Hervey Bay, we understand local building requirements and climate considerations.</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Transparent Pricing</h3>
+                        <p class="text-gray-600">No hidden costs or surprise fees. Clear, upfront pricing for every project.</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">On-Time Completion</h3>
+                        <p class="text-gray-600">We respect your time and complete projects within agreed timeframes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Services Preview -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                    Our Featured Services
+                </h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-10 h-10 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Full Bathroom Renovations</h3>
+                        <p class="text-gray-600">Complete bathroom makeovers from design to completion.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-10 h-10 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Tile & Fixture Replacement</h3>
+                        <p class="text-gray-600">Premium tiling and modern fixture installations.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-10 h-10 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Plumbing & Electrical</h3>
+                        <p class="text-gray-600">Professional plumbing and electrical upgrades.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-8">
+                    <button onclick="showPage('services')" class="bg-teal-600 text-white px-8 py-3 rounded-lg font-semibold btn-hover">
+                        View All Services
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Projects Gallery -->
+        <section class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                    Recent Projects
+                </h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="gallery-item bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="Modern Ensuite Renovation" class="h-48 w-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-800">Modern Ensuite</h3>
+                            <p class="text-sm text-gray-600">Hervey Bay Heights</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1571068316344-75bc76f77890?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Family Bathroom Renovation" class="h-48 w-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-800">Family Bathroom</h3>
+                            <p class="text-sm text-gray-600">Torquay</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="Luxury Bathroom Renovation" class="h-48 w-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-800">Luxury Renovation</h3>
+                            <p class="text-sm text-gray-600">Scarness</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1584622781564-1d987ba4dbc2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="Accessible Bathroom Renovation" class="h-48 w-full object-cover" onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-800">Accessible Bathroom</h3>
+                            <p class="text-sm text-gray-600">Pialba</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-teal-600 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold mb-4">
+                    Book Your Free Consultation Today
+                </h2>
+                <p class="text-xl mb-8 max-w-2xl mx-auto">
+                    Ready to transform your bathroom? Get a free, no-obligation consultation and quote.
+                </p>
+                <div class="space-y-4 md:space-y-0 md:space-x-4 md:flex md:justify-center">
+                    <button onclick="showPage('contact')" class="bg-white text-teal-600 px-8 py-4 rounded-lg text-lg font-semibold btn-hover block w-full md:w-auto">
+                        Get Free Quote
+                    </button>
+                    <a href="tel:0429411737" class="bg-teal-700 text-white px-8 py-4 rounded-lg text-lg font-semibold btn-hover block w-full md:w-auto">
+                        Call 0429 411 737
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Page 2: Services -->
+    <div id="services" class="page">
+        <!-- Services Hero -->
+        <section class="service-bg min-h-96 flex items-center pt-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white fade-in">
+                <h1 class="font-montserrat text-4xl md:text-5xl font-bold mb-4">
+                    Our Bathroom Renovation Services
+                </h1>
+                <p class="text-xl max-w-2xl mx-auto">
+                    Comprehensive bathroom renovation services tailored to your needs and budget.
+                </p>
+            </div>
+        </section>
+
+        <!-- Services Grid -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Service 1 -->
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-3">Full Bathroom Renovations</h3>
+                        <p class="text-gray-600">Complete bathroom transformations from concept to completion. We handle everything including design, demolition, plumbing, tiling, and finishing touches.</p>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M3 3v18h18V3H3zm16 16H5V5h14v14z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-3">Layout & Space Optimization</h3>
+                        <p class="text-gray-600">Maximize your bathroom's potential with smart layout designs. We reconfigure spaces to improve functionality and create a more spacious feel.</p>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-3">Tile & Fixture Replacement</h3>
+                        <p class="text-gray-600">Update your bathroom with premium tiles and modern fixtures. From floor to ceiling tiling to luxury tapware and accessories.</p>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-3">Plumbing & Electrical Upgrades</h3>
+                        <p class="text-gray-600">Professional plumbing and electrical work to support your new bathroom. New outlets, lighting circuits, and modern plumbing systems.</p>
+                    </div>
+
+                    <!-- Service 5 -->
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-3">Accessibility Modifications</h3>
+                        <p class="text-gray-600">Make your bathroom accessible for all ages and abilities. Grab rails, walk-in showers, and mobility-friendly designs.</p>
+                    </div>
+
+                    <!-- Service 6 -->
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M9 11H7v6h2v-6zm4 0h-2v6h2v-6zm4 0h-2v6h2v-6zm2-7H5v2h14V4zM6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-3">Shower & Bathtub Installations</h3>
+                        <p class="text-gray-600">Expert installation of showers, bathtubs, and shower screens. From frameless glass to luxury spa baths.</p>
+                    </div>
+
+                    <!-- Service 7 -->
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-3">Lighting & Cabinet Upgrades</h3>
+                        <p class="text-gray-600">Transform your bathroom with modern lighting solutions and custom cabinetry. LED downlights, vanity lighting, and storage solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                    How Our Process Works
+                </h2>
+                <div class="grid md:grid-cols-5 gap-8">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-teal-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">1</div>
+                        <h3 class="font-montserrat font-semibold mb-2">Consultation</h3>
+                        <p class="text-sm text-gray-600">Free in-home consultation to discuss your vision and requirements.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-teal-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">2</div>
+                        <h3 class="font-montserrat font-semibold mb-2">Quote</h3>
+                        <p class="text-sm text-gray-600">Detailed quote with transparent pricing and timeline.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-teal-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">3</div>
+                        <h3 class="font-montserrat font-semibold mb-2">Design</h3>
+                        <p class="text-sm text-gray-600">Collaborative design process to finalize your dream bathroom.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-teal-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">4</div>
+                        <h3 class="font-montserrat font-semibold mb-2">Renovation</h3>
+                        <p class="text-sm text-gray-600">Professional renovation with minimal disruption to your daily routine.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-teal-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">5</div>
+                        <h3 class="font-montserrat font-semibold mb-2">Handover</h3>
+                        <p class="text-sm text-gray-600">Final walkthrough and handover of your completed bathroom.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-teal-600 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold mb-4">
+                    Ready to Start Your Renovation?
+                </h2>
+                <p class="text-xl mb-8">
+                    Contact us today for a free consultation and quote.
+                </p>
+                <button onclick="showPage('contact')" class="bg-white text-teal-600 px-8 py-4 rounded-lg text-lg font-semibold btn-hover">
+                    Request a Quote
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Page 3: About Us -->
+    <div id="about" class="page">
+        <!-- About Hero -->
+        <section class="about-bg min-h-96 flex items-center pt-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white fade-in">
+                <h1 class="font-montserrat text-4xl md:text-5xl font-bold mb-4">
+                    About Bathroom Renovations Hervey Bay
+                </h1>
+                <p class="text-xl max-w-2xl mx-auto">
+                    Your trusted local bathroom renovation specialists.
+                </p>
+            </div>
+        </section>
+
+        <!-- Company Story -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="font-montserrat text-3xl md:text-4xl font-bold text-gray-800 mb-8">
+                        Our Story
+                    </h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        Bathroom Renovations Hervey Bay is a locally owned and operated renovation business that has been transforming bathrooms across the Fraser Coast for over 15 years. Founded by local tradesman Mark Thompson, our company was built on the simple principle of delivering quality workmanship with honest, reliable service.
+                    </p>
+                    <p class="text-lg text-gray-600 mb-6">
+                        As a licensed and insured renovation specialist, we understand the unique challenges of renovating in our coastal climate. From humidity considerations to salt air protection, we ensure every renovation is built to last in our beautiful Hervey Bay environment.
+                    </p>
+                    <p class="text-lg text-gray-600">
+                        Our commitment to excellence has earned us a reputation as the Fraser Coast's most trusted bathroom renovation company, with hundreds of satisfied customers and countless referrals from happy homeowners.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Values -->
+        <section class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                    Our Core Values
+                </h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-10 h-10 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Honesty</h3>
+                        <p class="text-gray-600">Transparent communication and fair pricing on every project.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-10 h-10 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Craftsmanship</h3>
+                        <p class="text-gray-600">Exceptional attention to detail and quality in every aspect of our work.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-10 h-10 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Punctuality</h3>
+                        <p class="text-gray-600">Respecting your time with reliable scheduling and timely completion.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-10 h-10 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Customer Satisfaction</h3>
+                        <p class="text-gray-600">Your happiness is our success - we're not done until you're delighted.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                    What Our Customers Say
+                </h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="flex mb-4">
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Absolutely thrilled with our new bathroom! Mark and his team were professional, punctual, and the quality of work exceeded our expectations. Highly recommend!"</p>
+                        <p class="font-semibold text-gray-800">- Sarah & John M., Torquay</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="flex mb-4">
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Great communication throughout the project. The team was clean, respectful, and delivered exactly what was promised. Our ensuite looks amazing!"</p>
+                        <p class="font-semibold text-gray-800">- Michelle K., Scarness</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="flex mb-4">
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                            </svg>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Fantastic value for money and completed on time. The attention to detail was impressive. We've already recommended them to our neighbors!"</p>
+                        <p class="font-semibold text-gray-800">- David & Lisa T., Pialba</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Meet Our Team -->
+        <section class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+                    Meet Our Team
+                </h2>
+                <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                    <div class="text-center">
+                        <div class="w-32 h-32 bg-gradient-to-br from-teal-100 to-teal-200 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-16 h-16 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Mark Thompson</h3>
+                        <p class="text-gray-600 mb-2">Owner & Lead Renovator</p>
+                        <p class="text-sm text-gray-500">15+ years experience, Licensed Builder</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-32 h-32 bg-gradient-to-br from-blue-100 to-blue-200 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-16 h-16 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Jake Wilson</h3>
+                        <p class="text-gray-600 mb-2">Senior Tiler</p>
+                        <p class="text-sm text-gray-500">Specialist in luxury tile installations</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-32 h-32 bg-gradient-to-br from-green-100 to-green-200 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-16 h-16 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-montserrat text-xl font-semibold mb-2">Tom Richards</h3>
+                        <p class="text-gray-600 mb-2">Licensed Plumber</p>
+                        <p class="text-sm text-gray-500">Plumbing & waterproofing specialist</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-teal-600 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold mb-4">
+                    Ready to Start Your Project?
+                </h2>
+                <p class="text-xl mb-8">
+                    Experience the difference of working with Hervey Bay's most trusted renovation team.
+                </p>
+                <button onclick="showPage('contact')" class="bg-white text-teal-600 px-8 py-4 rounded-lg text-lg font-semibold btn-hover">
+                    Start Your Project
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Page 4: Contact -->
+    <div id="contact" class="page">
+        <!-- Contact Hero -->
+        <section class="contact-bg min-h-96 flex items-center pt-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white fade-in">
+                <h1 class="font-montserrat text-4xl md:text-5xl font-bold mb-4">
+                    Get in Touch
+                </h1>
+                <p class="text-xl max-w-2xl mx-auto">
+                    Ready to transform your bathroom? Contact us for a free consultation.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Information & Form -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12">
+                    <!-- Contact Information -->
+                    <div>
+                        <h2 class="font-montserrat text-3xl font-bold text-gray-800 mb-8">
+                            Contact Information
+                        </h2>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-6 h-6 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-gray-800 mb-1">Business Name</h3>
+                                    <p class="text-gray-600">Bathroom Renovations Hervey Bay</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-6 h-6 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-gray-800 mb-1">Phone</h3>
+                                    <a href="tel:0429411737" class="text-teal-600 hover:text-teal-700">0429 411 737</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-6 h-6 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-gray-800 mb-1">Service Area</h3>
+                                    <p class="text-gray-600">Hervey Bay QLD 4655</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-6 h-6 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm3.5 6L12 10.5 8.5 8 12 5.5 15.5 8zM12 13.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-gray-800 mb-1">Hours</h3>
+                                    <p class="text-gray-600">Monday - Friday: 08:00 - 18:00</p>
+                                    <p class="text-gray-600">Saturday: 08:00 - 16:00</p>
+                                    <p class="text-gray-600">Sunday: Closed</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Quick Action Buttons -->
+                        <div class="mt-8 space-y-4">
+                            <a href="tel:0429411737" class="bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold btn-hover block text-center">
+                                Call Now
+                            </a>
+                            <button onclick="scrollToForm()" class="bg-gray-200 text-gray-800 px-6 py-3 rounded-lg font-semibold btn-hover block w-full">
+                                Request Free Quote
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div>
+                        <h2 class="font-montserrat text-3xl font-bold text-gray-800 mb-8">
+                            Send Us a Message
+                        </h2>
+                        
+                        <form id="contact-form" class="space-y-6">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Name *</label>
+                                <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500">
+                            </div>
+                            
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email *</label>
+                                <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500">
+                            </div>
+                            
+                            <div>
+                                <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Phone</label>
+                                <input type="tel" id="phone" name="phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500">
+                            </div>
+                            
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message *</label>
+                                <textarea id="message" name="message" rows="5" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500" placeholder="Tell us about your bathroom renovation project..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="w-full bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold btn-hover">
+                                Send Message
+                            </button>
+                        </form>
+                        
+                        <div id="form-success" class="hidden mt-4 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg">
+                            Thank you for your message! We'll get back to you within 24 hours.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="font-montserrat text-3xl font-bold text-center text-gray-800 mb-8">
+                    Our Service Area
+                </h2>
+                <div class="bg-white rounded-lg shadow-lg p-8 text-center">
+                    <div class="w-full h-64 bg-gradient-to-br from-teal-100 to-blue-200 rounded-lg flex items-center justify-center mb-6">
+                        <div class="text-center">
+                            <svg class="w-16 h-16 text-teal-600 mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                            <h3 class="font-montserrat text-xl font-semibold text-gray-800">Hervey Bay QLD 4655</h3>
+                            <p class="text-gray-600">Serving all suburbs across Hervey Bay and surrounding areas</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">
+                        We proudly serve Hervey Bay, Torquay, Scarness, Pialba, Urangan, and surrounding Fraser Coast communities.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="py-16 bg-teal-600 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="font-montserrat text-3xl md:text-4xl font-bold mb-4">
+                    "Transforming Bathrooms Across Hervey Bay with Quality & Style."
+                </h2>
+                <p class="text-xl mb-8">
+                    Your dream bathroom is just a phone call away.
+                </p>
+                <div class="space-y-4 md:space-y-0 md:space-x-4 md:flex md:justify-center">
+                    <a href="tel:0429411737" class="bg-white text-teal-600 px-8 py-4 rounded-lg text-lg font-semibold btn-hover block w-full md:w-auto">
+                        Call Now
+                    </a>
+                    <button onclick="scrollToForm()" class="bg-teal-700 text-white px-8 py-4 rounded-lg text-lg font-semibold btn-hover block w-full md:w-auto">
+                        Request Free Quote
+                    </button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <img src="https://drive.google.com/uc?export=view&id=1P3xUjstwo6xb4suPsbgRPmcQTqWDZ_gg" alt="Bathroom Renovations Hervey Bay Logo" class="w-8 h-8 object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.marginLeft='0';">
+                        <span class="font-montserrat font-bold text-lg">Bathroom Renovations Hervey Bay</span>
+                    </div>
+                    <p class="text-gray-300 text-sm">
+                        Quality bathroom renovations across Hervey Bay and the Fraser Coast.
+                    </p>
+                </div>
+                
+                <div>
+                    <h3 class="font-montserrat font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" onclick="showPage('home')" class="text-gray-300 hover:text-teal-400">Home</a></li>
+                        <li><a href="#" onclick="showPage('services')" class="text-gray-300 hover:text-teal-400">Services</a></li>
+                        <li><a href="#" onclick="showPage('about')" class="text-gray-300 hover:text-teal-400">About Us</a></li>
+                        <li><a href="#" onclick="showPage('contact')" class="text-gray-300 hover:text-teal-400">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-montserrat font-semibold mb-4">Services</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><span class="text-gray-300">Full Bathroom Renovations</span></li>
+                        <li><span class="text-gray-300">Tile & Fixture Replacement</span></li>
+                        <li><span class="text-gray-300">Plumbing & Electrical</span></li>
+                        <li><span class="text-gray-300">Accessibility Modifications</span></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-montserrat font-semibold mb-4">Contact Info</h3>
+                    <div class="space-y-2 text-sm">
+                        <p class="text-gray-300">Phone: <a href="tel:0429411737" class="text-teal-400 hover:text-teal-300">0429 411 737</a></p>
+                        <p class="text-gray-300">Service Area: Hervey Bay QLD 4655</p>
+                        <p class="text-gray-300">Hours: Mon-Fri 8AM-6PM</p>
+                    </div>
+                    
+                    <!-- Social Media Icons -->
+                    <div class="flex space-x-4 mt-4">
+                        <a href="https://www.facebook.com/profile.php?id=" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-teal-400" title="Follow us on Facebook">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/@HerveyBayBathroomRenovationSpe" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-teal-400" title="Visit our YouTube channel">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/renovationsherveybay/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-teal-400" title="Follow us on Instagram">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-300">
+                <p>&copy; 2024 Bathroom Renovations Hervey Bay. All rights reserved. | Licensed & Insured Tradesman</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Page Navigation
+        function showPage(pageId) {
+            // Hide all pages
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.classList.remove('active'));
+            
+            // Show selected page
+            document.getElementById(pageId).classList.add('active');
+            
+            // Update navigation
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => link.classList.remove('active'));
+            
+            // Find and activate the correct nav link
+            const activeLink = document.querySelector(`[onclick="showPage('${pageId}')"]`);
+            if (activeLink) {
+                activeLink.classList.add('active');
+            }
+            
+            // Scroll to top
+            window.scrollTo(0, 0);
+            
+            // Update page title and meta description
+            updatePageMeta(pageId);
+        }
+        
+        function updatePageMeta(pageId) {
+            const titles = {
+                'home': 'Bathroom Renovations Hervey Bay - Quality Bathroom Renovations QLD',
+                'services': 'Bathroom Renovation Services - Hervey Bay QLD | Full Renovations & Tiling',
+                'about': 'About Us - Bathroom Renovations Hervey Bay | Licensed Local Tradesman',
+                'contact': 'Contact - Bathroom Renovations Hervey Bay | Free Quotes 0429 411 737'
+            };
+            
+            const descriptions = {
+                'home': 'Professional bathroom renovations in Hervey Bay QLD. Licensed, insured tradesman offering full bathroom renovations, tiling, plumbing upgrades. Call 0429 411 737 for free quote.',
+                'services': 'Comprehensive bathroom renovation services in Hervey Bay. Full renovations, tiling, plumbing, electrical upgrades, accessibility modifications. Licensed tradesman.',
+                'about': 'Learn about Bathroom Renovations Hervey Bay - locally owned, licensed tradesman with 15+ years experience. Quality craftsmanship and customer satisfaction guaranteed.',
+                'contact': 'Contact Bathroom Renovations Hervey Bay for free consultation. Phone 0429 411 737. Serving Hervey Bay QLD 4655 and Fraser Coast. Licensed & insured.'
+            };
+            
+            document.title = titles[pageId] || titles['home'];
+            
+            const metaDescription = document.querySelector('meta[name="description"]');
+            if (metaDescription) {
+                metaDescription.setAttribute('content', descriptions[pageId] || descriptions['home']);
+            }
+        }
+        
+        // Mobile Menu Toggle
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        }
+        
+        // Contact Form Handling
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            const phone = formData.get('phone');
+            const message = formData.get('message');
+            
+            // Simple validation
+            if (!name || !email || !message) {
+                showFormMessage('Please fill in all required fields.', 'error');
+                return;
+            }
+            
+            // Simulate form submission
+            showFormMessage('Thank you for your message! We\'ll get back to you within 24 hours.', 'success');
+            
+            // Reset form
+            this.reset();
+        });
+        
+        function showFormMessage(message, type) {
+            const successDiv = document.getElementById('form-success');
+            successDiv.textContent = message;
+            
+            if (type === 'error') {
+                successDiv.className = 'mt-4 p-4 bg-red-100 border border-red-400 text-red-700 rounded-lg';
+            } else {
+                successDiv.className = 'mt-4 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg';
+            }
+            
+            successDiv.classList.remove('hidden');
+            
+            // Hide message after 5 seconds
+            setTimeout(() => {
+                successDiv.classList.add('hidden');
+            }, 5000);
+        }
+        
+        // Scroll to form function
+        function scrollToForm() {
+            if (document.getElementById('contact').classList.contains('active')) {
+                // Already on contact page, scroll to form
+                document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' });
+            } else {
+                // Navigate to contact page first
+                showPage('contact');
+                // Small delay to ensure page is loaded, then scroll
+                setTimeout(() => {
+                    document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' });
+                }, 100);
+            }
+        }
+ 
